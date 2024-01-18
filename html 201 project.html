@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 201 Project</title>
+
+    <!-- Internal CSS -->
+    <style>
+      .content {
+        padding: 5px;
+        background-color: black;
+        color: white;
+      }
+
+      .a {
+        color: blue;
+      }
+      .intro {
+        text-align: center;
+      }
+      .navigation {
+        padding-right: 20px;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <table border="0" width="100%" class="body">
+      <tbody>
+        <!-- Intro -->
+        <tr>
+          <td colspan="2">
+            <div class="intro">
+              <h1 id="up">HTML 201 Project</h1>
+              <p>Done by: Kadhia Pryce</p>
+              <p style="text-align: right; font-size: small">
+                <a href="#bottom">Go to the Bottom of the Page</a>
+              </p>
+              <hr />
+            </div>
+          </td>
+        </tr>
+
+        <!-- Navigation -->
+        <tr>
+          <td rowspan="2" width="50%">
+            <div class="navigation">
+              <h3 style="text-align: center">Pexels Website</h3>
+              <iframe
+                src="https://www.pexels.com/photo/fashion-photography-of-woman-hands-on-chin-with-glitter-makeup-1081685/"
+                frameborder="0"
+                width="100%"
+                height="600"
+              ></iframe>
+            </div>
+          </td>
+          <th>Look at My Content!</th>
+        </tr>
+
+        <!-- Content -->
+        <tr>
+          <td>
+            <div class="content">
+              <!-- image -->
+              <iframe
+                src="https://images.pexels.com/photos/1081685/pexels-photo-1081685.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                frameborder="0"
+                width="100%"
+                height="200"
+              ></iframe>
+
+              <!-- paragraph -->
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                sapiente nam consequuntur recusandae natus modi vitae architecto
+                dolor itaque totam dolorem, nihil facilis sed enim eaque
+                quibusdam deserunt veritatis dicta.
+              </p>
+
+              <!-- youtube -->
+              <iframe
+                src="https://www.youtube.com/watch?v=AQzITX4DE_s"
+                frameborder="0"
+                width="100%"
+                height="265"
+              ></iframe>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+          <td colspan="2">
+            <div class="footer">
+              <h3 id="bottom">
+                <p><a href="#up">Kadhia Pryce</a><sup>&copy</sup>2023</p>
+              </h3>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
